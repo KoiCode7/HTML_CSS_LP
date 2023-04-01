@@ -1,0 +1,120 @@
+<!-- 55:50 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Practice LP" />
+    <!-- reset.css ress -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/earlyaccess/kokoro.css"
+      rel="stylesheet"
+    />
+    <title>Practice LP</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <h1 class="site-title">
+        <a href="#">KoiCode</a>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a
+              href="http://www.Twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="./img/twitter.png" alt="Twitter" class="icon" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+      <picture>
+        <source media="(max-width: 600px)" srcset="./img/main-sp.jpg" />
+        <img src="./img/main-pc.jpg" alt="" />
+      </picture>
+    </div>
+
+    <!-- About -->
+    <section id="about" class="wrapper">
+      <h2 class="sec-title">About</h2>
+      <ul>
+        <li>KoiCode, Inc.</li>
+        <li>Established as a Web design company</li>
+        <li>Providing Web page and application services</li>
+        <li>Email: xxxxxxx@xxx.com</li>
+      </ul>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nemo cum
+        quia nesciunt delectus neque.
+      </p>
+    </section>
+
+    <!-- Works -->
+    <section id="works" class="wrapper">
+      <h2 class="sec-title">Works</h2>
+      <ul>
+        <li><img src="./img/works1.jpg" alt="works1" /></li>
+        <li><img src="./img/works2.jpg" alt="works1" /></li>
+        <li><img src="./img/works3.jpg" alt="works1" /></li>
+        <li><img src="./img/works4.jpg" alt="works1" /></li>
+        <li><img src="./img/works5.jpg" alt="works1" /></li>
+        <li><img src="./img/works6.jpg" alt="works1" /></li>
+        <li><img src="./img/works3.jpg" alt="works1" /></li>
+        <li><img src="./img/works1.jpg" alt="works1" /></li>
+        <li><img src="./img/works4.jpg" alt="works1" /></li>
+      </ul>
+    </section>
+
+    <!-- News -->
+    <section id="news" class="wrapper">
+      <h2 class="sec-title">News</h2>
+      <dl>
+        <dt>2022/10/29</dt>
+        <dd>Released this website!</dd>
+        <dt>2022/11/15</dt>
+        <dd>Started a tutorial program!</dd>
+        <dt>2022/12/23</dt>
+        <dd>Started Koicode Youtube channel!</dd>
+        <dt>2023/1/11</dt>
+        <dd>Uploaded a new Youtube movie!</dd>
+      </dl>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="wrapper">
+      <h2 class="sec-title">Contact</h2>
+      <p>Fill in a form below for any questions!</p>
+      <form action="#" method="post">
+        <dl>
+          <dt><label for="name">Name</label></dt>
+          <dd><input type="text" id="name" /></dd>
+          <dt><label for="email">Email</label></dt>
+          <dd><input type="email" id="email" /></dd>
+          <dt><label for="content">Content</label></dt>
+          <dd>
+            <textarea
+              name="content"
+              id="content"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </dd>
+        </dl>
+        <div class="button"><input type="submit" value="Send" /></div>
+      </form>
+    </section>
+  </body>
+</html>
